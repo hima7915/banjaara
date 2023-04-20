@@ -1,0 +1,84 @@
+/* .ct3 {
+  position: absolute;
+  width: 696px;
+  height: 152px;
+  top: 80px;
+  left: 28%;
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  color: #ffffff;
+}
+
+.ct4 {
+  position: absolute;
+  width: 696px;
+  height: 152px;
+  top: 120px;
+  left: 42%;
+  font-family: "Rozha One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 57px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+} */
+
+.searchimg {
+  position: absolute;
+  left: 85.5%;
+  top: 64.7%;
+  background-color: #ffffff;
+  width: 45px;
+  height: 45px;
+}
+
+.searchtext {
+  padding: 0;
+  margin: 20px 20px auto;
+  width: 88%;
+  height: 60px;
+  background: #fffbfb;
+  border-radius: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.propic {
+  padding: 0;
+  position: absolute;
+  top: 500px;
+  right: 40px;
+  width: 75px;
+  margin: auto;
+}
+
+.tagselection {
+  margin: 15px 15px 15px;
+  padding: auto;
+  width: 90%;
+  align-items: left;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  flex-wrap: wrap;
+  height: auto;
+  border-radius: 20px;
+  outline: none;
+}
+
+.cards {
+  margin-bottom: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 20px;
+}

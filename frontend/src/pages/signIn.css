@@ -1,0 +1,95 @@
+.signin_page {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 100px 0 280px 0;
+  background: linear-gradient(180deg, #2dca88 0%, #ffffff 100%);
+  background-size: cover;
+  align-items: center;
+}
+
+.box {
+  align-self: center;
+  box-sizing: border-box;
+  width: 420px;
+  height: 100%;
+  background: #fff9f9;
+  border: 6px solid #2fcb89;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.form_heading {
+  margin: 15px auto;
+  align-self: center;
+  align-items: center;
+  width: 354px;
+  height: 97px;
+  font-family: "Acme";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  display: flex;
+  text-align: center;
+  color: #000000;
+}
+
+.google {
+  position: relative;
+  margin-left: 10px;
+  width: 27px;
+  height: 28px;
+}
+
+.inptext {
+  margin: 5px;
+  padding-left: 20px;
+  border-radius: 15px;
+  align-self: center;
+  width: 336px;
+  height: 36px;
+  background: #e8e8e8;
+}
+
+.submitbutton {
+  margin: 15px auto;
+  width: 150px;
+  height: 51px;
+  background: #7af39c;
+  border-radius: 15px;
+  text-align: center;
+  font-family: "Candal";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 24px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.siwg {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+
+.or {
+  margin-top: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+
+/* *{
+  border: 2px solid red;
+} */

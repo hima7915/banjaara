@@ -1,0 +1,105 @@
+.container {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.cover {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  background: no-repeat;
+  width: 100%;
+  height: 420px;
+}
+
+.ct1 {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 0%;
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  color: #ffffff;
+}
+
+.ct2 {
+  position: absolute;
+  margin: auto;
+  margin-top: 15px;
+  padding: 0%;
+  font-family: "Rozha One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 57px;
+  color: #ffffff;
+}
+
+.arrow {
+  position: relative;
+  margin: 35px 15px 15px 25px;
+}
+
+.homeheadings {
+  margin: auto;
+  margin-left: 15px;
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.headtext {
+  font-family: "Inter";
+  max-width: 70%;
+  margin: auto;
+  margin-left: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.sendb {
+  margin: 15px auto;
+  margin-left: 15px;
+  background: #000000;
+  border-radius: 15px;
+  width: 140px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+.sendt {
+  margin: auto;
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.textbox {
+  margin: 15px 10px 10px 15px;
+  background: #fffbfb;
+  border-radius: 15px;
+  width: 80%;
+  height: 60px;
+}
+
+/* *{
+  border: 1px solid red;
+} */
