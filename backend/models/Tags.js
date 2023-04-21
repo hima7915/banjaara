@@ -12,12 +12,14 @@ const tags = db.define('tags',{
         type: DataTypes.STRING,
         allowNull: false
     }
-},{
-    freezeTableName:true
-});
+}
+// ,{
+//     freezeTableName:true
+// }
+);
  
 (async () => {
-    await db.sync();
+    await db.sync({alter:true});
 })();
  
 export default tags;

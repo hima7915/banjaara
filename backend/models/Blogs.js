@@ -41,12 +41,14 @@ const blogs = db.define('blogs',{
         type: DataTypes.BOOLEAN,
         defaultValue: 0
     }
-},{
-    freezeTableName:true
-});
+}
+// ,{
+//     freezeTableName:true
+// }
+);
  
 (async () => {
-    await db.sync();
+    await db.sync({alter:true});
 })();
  
 export default blogs;

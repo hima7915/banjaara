@@ -7,6 +7,7 @@ import router from "./routes/index.js";
 dotenv.config();
 
 try {
+    await db.sync();
     await db.authenticate();
     console.log('Database Connected...');
 } catch (error) {

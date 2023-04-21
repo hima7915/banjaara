@@ -26,12 +26,14 @@ const Userinfo = db.define('user_info',{
         type: DataTypes.STRING,
         allowNull: true,
     }
-},{
-    freezeTableName:true
-});
+}
+// ,{
+//     freezeTableName:true
+// }
+);
  
 (async () => {
-    await db.sync();
+    await db.sync({alter:true});
 })();
  
 export default Userinfo;

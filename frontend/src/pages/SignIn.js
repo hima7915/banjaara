@@ -33,7 +33,7 @@ function SignIn() {
         <p className="form_heading">Sign-in to get your best interests!</p>
         <form>
           <input type="text" name="username" placeholder="Username" className="inptext" onChange={handleChange}/>
-          <input type="text" name="password" placeholder="Password" className="inptext" onChange={handleChange}/>
+          <input type="password" name="password" placeholder="Password" className="inptext" onChange={handleChange}/>
           <input type="submit" name="Submit" className="submitbutton" onClick={handleClick}/>
           {/* <p className="or">or</p>
           <p className="siwg">Sign-in with <img src="/images/google.png" className="google" alt="google"></img></p> */}

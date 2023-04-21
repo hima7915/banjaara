@@ -25,7 +25,7 @@ function SignUp() {
   const handleClick = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:8000/users", deet);
+      await axios.post("http://localhost:5000/users", deet);
       navigate("/");
     } catch (err) {
       console.log(err);
