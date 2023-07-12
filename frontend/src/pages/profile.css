@@ -1,23 +1,73 @@
-.propic1 {
-  position: absolute;
-  top: 370px;
-  left: 50px;
-  width: 210px;
-  height: 210px;
+.cover {
+  position: relative;
+  max-width: 100%;
 }
 
-.userinfo{
-  position: relative;
+.cover-image {
+  width: 100%;
+  height: auto;
+}
+
+.profile-info {
+  position: absolute;
+  bottom: -120px;
+  left: 10%;
+  transform: translateX(-50%);
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
+  padding: 10px;
+}
+
+.profile-pic {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+}
+
+.username {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+}
+
+.about-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.about {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+.about-text {
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.cards {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .username1 {
   position: relative;
-  top: -20px;
-  left: 280px;
-  height: 67px;
+  margin-left:265px;
+  height: 115px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -25,25 +75,7 @@
   color: #000000;
 }
 
-
-
-.smicons{
-  position: absolute;
-  top: 60px;
-  left: 280px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-}
-
-.socialmedia {
-  position: relative;
-  width: 30px;
-  height: 25px;
-}
-
 .about {
-  margin: 15px 50px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -53,7 +85,6 @@
 }
 
 .abouttext {
-  margin: 15px 50px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -62,6 +93,63 @@
   color: #000000;
 }
 
-/* *{
-  border: solid 3px violet;
-} */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .profile-info {
+    bottom: -80px;
+  }
+
+  .profile-pic {
+    width: 145px;
+    height: 145px;
+  }
+
+  .username1 {
+    height: 80px;
+    margin-left:185px;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-info {
+    bottom: -88px;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  .username1 {
+    height: 85px;
+    margin-left:150px;
+  }
+}
+  
+  
+
+  @media (max-width: 576px) {
+    .profile-info {
+      left:15%;
+      bottom: -69px;
+    }
+
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+    }
+
+    .username1 {
+      font-size: 25px;
+      margin-left: 125px;
+      height: 65px;
+    }
+
+    .about{
+      font-size: 20px;
+    }
+
+    .about-text{
+      font-size: 12px;
+    }
+  }
+

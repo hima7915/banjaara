@@ -1,76 +1,79 @@
-.container {
-  text-align: center;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
+.body {
+  background-color: #ccf2e2;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Kaushan Script", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.cover {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  color: #ffffff;
-  background: no-repeat;
-  width: 100%;
-  height: 420px;
+.container {
+  position: relative;
+  color: white;
+  max-width: 100%;
 }
 
 .ct1 {
   position: absolute;
-  top: 30%;
-  margin: auto;
-  padding: 0%;
+  top: 10%;
   font-family: "Kaushan Script";
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
   line-height: 70px;
-  color: #ffffff;
+  color: white;
 }
 
 .ct2 {
   position: absolute;
-  margin: auto;
-  margin-top: 15px;
-  padding: 0%;
+  top: 30%;
   font-family: "Rozha One";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 57px;
-  color: #ffffff;
+  color: white;
 }
 
 .arrow {
   position: relative;
   margin: 35px 15px 15px 25px;
 }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .arrow{
+    width: 25px;
+  }
+}
 
 .homeheadings {
-  margin: auto;
-  margin-left: 15px;
   font-family: "Kaushan Script";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  line-height: 70px;
   display: flex;
   align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .homeheadings {
+    font-size: 27px;
+  }
 }
 
 .headtext {
   font-family: "Inter";
-  max-width: 70%;
-  margin: auto;
-  margin-left: 15px;
-  font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 35px;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .headtext {
+    font-size: 1rem;
+  }
+}
 .sendb {
   margin: 15px auto;
   margin-left: 15px;

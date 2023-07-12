@@ -13,12 +13,7 @@ export default function DestinationCards() {
         <p className="blogtitle">Blog Title</p>
         <p className="username">By Author's Name</p>
         <div className="tagsondestcards">
-          <Tags className="tagsoncards" />
-          <Tags className="tagsoncards" />
-          <Tags className="tagsoncards" />
-          <Tags className="tagsoncards" />
-          <Tags className="tagsoncards" />
-          <Tags className="tagsoncards" />
+          <Tags />
         </div>
       </div>
     </>

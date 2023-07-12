@@ -1,3 +1,13 @@
+body {
+  background-color: #ccf2e2;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Kaushan Script", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .navsignedin {
   width: 100%;
   height: 50px;
@@ -11,15 +21,18 @@
 
 .topLeft {
   text-align: left;
-  flex: auto;
   font-family: "Kaushan Script";
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
-  line-height: 70px;
   cursor: pointer;
   justify-content: center;
   color: #000000;
+}
+
+.navsignedin a{
+  color: #000000;
+  text-decoration: unset;
 }
 
 .toplist {
@@ -31,12 +44,36 @@
 }
 
 .topli {
-  margin-right: 20px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
   line-height: 39px;
-  color: #000000;
   cursor: pointer;
+  margin: 0.5rem;
+  font-size: 1.1rem;
 }
+
+.navbar-collapse .navbar-nav {
+  padding-top: 20px;
+}
+
+.navhr{
+  height: 2px;
+  margin: 1rem 0.5rem;
+  background: #00000075;
+  border: 0;
+  border-top: 1px solid;
+  opacity: 0.25;
+}
+
+.navbar-collapse{
+  background-color: white;
+  left: 0;
+  right: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: unset;
+}
+
+

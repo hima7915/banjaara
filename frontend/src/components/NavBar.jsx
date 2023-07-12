@@ -5,11 +5,12 @@ function NavBar() {
   return (
     <>
       <div className="navbar">
-        <div className="topLeft"><Link to="/">Banjaara</Link></div>
-        <div className="topRight"><Link to="/pages/SignIn">Sign in</Link></div>
+        <div className="topLeft d-flex m-0 px-3"><Link to="/">Banjaara</Link></div>
+        <div className="topRight d-flex m-0 px-3"><Link to="/pages/SignIn">Sign in</Link></div>
       </div>
     </>
   );
 }
 
 export default NavBar;
+

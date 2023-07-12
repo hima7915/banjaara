@@ -1,0 +1,38 @@
+.image-container {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.image-frame {
+  transform: rotate(-9deg);
+  margin-top: 5rem;
+  margin-left: 5rem;
+  background: white;
+  width: 43%;
+  height: 82%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .image-frame {
+    transform: none; 
+    margin: 0; 
+    width: 80%;
+    height: auto;
+  }
+
+  .image-container{
+    width: 85%;
+    height: 80%;
+  }
+}
