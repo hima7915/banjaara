@@ -31,7 +31,6 @@
   font-size: 32px;
   line-height: 41px;
   display: flex;
-  text-align: center;
   color: #000000;
 }
 
@@ -47,7 +46,7 @@
   padding-left: 20px;
   border-radius: 15px;
   align-self: center;
-  width: 336px;
+  width: 80%;
   height: 36px;
   background: #e8e8e8;
 }

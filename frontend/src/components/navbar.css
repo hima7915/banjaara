@@ -1,22 +1,19 @@
 .topRight {
   text-align: right;
-  margin-right: 25px;
-  flex:auto;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 39px;
   color: #000000;
 }
 
-.topLeft {
+.topLeft > a {
   text-align: left;
-  margin: 10px 10px 10px 25px;
   font-family: "Kaushan Script";
   font-style: normal;
   font-weight: 300;
   color: #000000;
+  font-size: 35px;
 }
 
 .navbar {
@@ -28,4 +25,26 @@
   display: flex;
   align-items: center;
   z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .topRight {
+    font-size: 15px;
+  }
+
+  .topLeft > a{
+    font-size: 25px;
+  }
+
+  .navbar{
+    height:55px;
+  }
+}
+
+
+
+
+.navbar a{
+  color: #000000;
+  text-decoration: unset;
 }

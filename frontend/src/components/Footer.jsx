@@ -1,14 +1,11 @@
 import "./footer.css";
-export default function Footer() 
-{
+
+export default function Footer() {
   return (
-    <div className="footer">
-      <div className="footimages">
-      <img src="\images\insta.png" alt="insta" className="footimg"></img>
-      <img src="\images\fb.png" alt="facebook" className="footimg"></img>
-      <img src="\images\gmail.png" alt="gmail" className="footimg"></img>
-      </div>
-      <div><p className="foottext">2022 Banjaara, Inc. All rights reserved.</p></div>
+    <div className="footer d-flex justify-content-center align-items-center m-auto mt-5">
+        <div className="foottext">
+          © 2022 Banjaara All rights reserved. Made with ❤ by SaHi
+        </div>
     </div>
   );
 }
